@@ -11,7 +11,8 @@ public class ControlLibererEtal {
 	}
 
 	public Boolean isVendeur(String nomVendeur) {
-		return controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur)!=null;
+		Etal etal = controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur);
+		return etal!=null;
 	}
 
 	/**
@@ -26,6 +27,9 @@ public class ControlLibererEtal {
 	 */
 	public String[] libererEtal(String nomVendeur) {
 		Etal etal = controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur);
+		if (etal == null) {
+			return null;
+		}
 		return etal.etatEtal();
 	}
 
