@@ -15,8 +15,6 @@ import villagegaulois.Village;
 
 public class TestControleursDesCas {
 	public static void main(String[] args) {
-
-		//TODO decommenter les cas au fur et a mesure que vous avancez dans le TP
 		
 		Village village = new Village("le village des irréductibles", 10, 5);
 		Chef abraracourcix = new Chef("Abraracourcix", 10, village);
