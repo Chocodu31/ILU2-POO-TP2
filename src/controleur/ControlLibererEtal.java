@@ -30,9 +30,11 @@ public class ControlLibererEtal {
 		if (etal == null) {
 			return null;
 		}
+		String[] retour = etal.etatEtal();
 		etal.libererEtal();
-		return etal.etatEtal();
+		return retour;
 	}
 
 }
+
 
