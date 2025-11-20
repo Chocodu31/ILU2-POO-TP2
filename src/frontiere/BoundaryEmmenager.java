@@ -1,8 +1,6 @@
 package frontiere;
 
 import controleur.ControlEmmenager;
-import personnages.Druide;
-import personnages.Gaulois;
 
 public class BoundaryEmmenager {
 	private ControlEmmenager controlEmmenager;

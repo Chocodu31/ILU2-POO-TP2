@@ -1,10 +1,10 @@
 package frontiere;
 
 import controleur.ControlAcheterProduit;
-import villagegaulois.Etal;
 
 public class BoundaryAcheterProduit {
 	private ControlAcheterProduit controlAcheterProduit;
+	//TODO ne pas utiliser le type Etal
 
 	public BoundaryAcheterProduit(ControlAcheterProduit controlAcheterProduit) {
 		this.controlAcheterProduit = controlAcheterProduit;

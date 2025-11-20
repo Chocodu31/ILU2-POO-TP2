@@ -6,6 +6,7 @@ import villagegaulois.Village;
 
 public class ControlAcheterProduit {
 	private Village village;
+	//TODO utiliser controlTrouverEtalVendeur
 	private ControlTrouverEtalVendeur controlTrouverEtalVendeur;
 	private ControlVerifierIdentite controlVerifierIdentite;
 
